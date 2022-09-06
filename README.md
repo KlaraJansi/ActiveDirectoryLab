@@ -22,29 +22,29 @@ This is tutorial for set up the Active Directory Home Lab via Oracle Virtual Box
 
 <h2>Walk-through:</h2>
 
-Step 1: Install the Oracle Virtual Box <br />
+<b> Step 1: Install the Oracle Virtual Box <br />
 Step 2: Create Windows server 2019 virtual machine <br /> 
 Step 3: Create Windows 10 virtual machine <br /> 
-Step 4: Setup server network adapters <br />
+Step 4: Setup server network adapters </b> <br /> 
 - Settings -> Network & Internet -> Change adapter options -> Set up IP address for internal network <br />
 
-Step 5: Install Active Directory Domain Services <br />
+<b> Step 5: Install Active Directory Domain Services </b> <br />
 - Server Manager -> Add roles and features -> Next... -> Role-based or feature-based installation -> Select a server -> Check the Active Directory Domain Services -> Next... -> Install <br />
 - Click on the yellow exclamation mark  <br />
 - Add a new forest -> name your domain -> Next... -> set up a password -> Next... -> Install <br />
 *you will be logged out 
 
-Step 6: Create admin domain account <br />
+<b> Step 6: Create admin domain account </b> <br />
 - log in back -> Start -> Windows Administrative Tools -> Active Directory Users and Computers -> right click on your domain -> New -> Organisational Unit -> name it '_ADMINS' -> Ok <br />
 - right click on '_ADMINS' -> New -> User -> name a admin user -> set a password for a user (you can also uncheck 'User must change password at next logon' and check 'Password never expires', if you don't want to deal with that right now) <br />
 - right click on your newly created admin user -> Properties -> Member Of -> Add -> Name the new group 'Domain Admins' -> Ok -> Apply 
 * You can now log out and log in back as your new admin account <br />
 
-Step 7: INstall and configure RAS/NAT: <br />
+<b> Step 7: INstall and configure RAS/NAT: </b> <br />
 - Add roles and features -> Next... -> Remote Access -> Next... -> Check 'Routing' -> Next... -> Install
 - Tools -> Routing and Remote Access -> right click on your domain -> COnfigure and Enable Routing and Remote Access -> Next... -> Network address translation (NAT) -> Next... -> Use this public interface to connect to the Internet -> select your Internet connection -> Next... -> Finish
 
-Step 8: Install and configure DHCP:<br />
+<b> Step 8: Install and configure DHCP: </b> <br />
 - Add roles and features -> DHCP -> Add features -> Next... -> Install
 - Tools -> DHCP -> right click on your domain -> New Scope -> Next... -> name the scope -> set up adress range -> Next... -> set up Lease duration -> Next... -> Finish
 - right click on your domain -> Authorize -> Refresh

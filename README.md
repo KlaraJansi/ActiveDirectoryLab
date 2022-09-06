@@ -5,6 +5,7 @@
 This is tutorial for set up the Active Directory Home Lab via Oracle Virtual Box. 
 <br />
 
+<h2> Watch a video walkthrough! </h2> 
 
 <h2>Languages and Utilities Used</h2>
 
@@ -20,12 +21,20 @@ This is tutorial for set up the Active Directory Home Lab via Oracle Virtual Box
 <h2>Walk-through:</h2>
 
 Step 1: Install the Oracle Virtual Box <br />
-Step 2: Install Windows server 2019 <br /> 
-Step 3: Install Windows 10 <br /> <br />
+Step 2: Create Windows server 2019 virtual machine <br /> 
+Step 3: Create Windows 10 virtual machine <br /> 
+Step 4: Setup server network adapters <br />
+- Settings -> Network & Internet -> Change adapter options -> Set up IP address for internal network <br />
 
-Step 4: Configure the environment 
-Step
-Step
+Step 5: Install Active Directory Domain Services <br />
+- Server Manager -> Add roles and features -> Next -> Role-based or feature-based installation -> Select a server -> Check the Active Directory Domain Services -> Next -> Install <br />
+- Click on the yellow exclamation mark  <br />
+- Add a new forest -> name your domain -> Next -> set up a password -> Next -> Install <br />
+*you will be logged out 
+
+Step 6: Create admin domain acount <br />
+
+
 Step
 
 

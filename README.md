@@ -2,7 +2,7 @@
 <h1>Set it up! </h1>
 
 <h2>Description</h2>
-This is tutorial for set up the Active Directory Home Lab via Oracle Virtual Box. I used [Windows server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-20190 and [Windows10](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise)
+This is tutorial for set up the Active Directory Home Lab via Oracle Virtual Box. 
 <br />
 
 
@@ -14,8 +14,8 @@ This is tutorial for set up the Active Directory Home Lab via Oracle Virtual Box
 
 <h2>Environments Used </h2>
 
-- <b>Windows server 2019 </b> 
-- <b>Windows 10</b> 
+- <b>[Windows server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-20190)</b> 
+- <b>[Windows 10](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise)</b> 
 
 <h2>Program walk-through:</h2>
 

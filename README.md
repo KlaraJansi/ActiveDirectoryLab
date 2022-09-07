@@ -49,25 +49,10 @@ Step 4: Setup server network adapters </b> <br />
 - Tools -> DHCP -> right click on your domain -> New Scope -> Next... -> name the scope -> set up adress range -> Next... -> set up Lease duration -> Next... -> Finish
 - right click on your domain -> Authorize -> Refresh
 
+<b> Step 8: Join your client to domain and login with domain credentials: </b> <br />
+- right click on windows icon -> System -> Rename your PC (advanced) -> Change -> Type your domain name and sign in with one of the domain users credentials
 
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<b> All done! </b>
 
 </p>
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>

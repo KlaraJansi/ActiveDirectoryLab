@@ -12,7 +12,6 @@ This is tutorial for set up the Active Directory Home Lab with Oracle Virtual Bo
 <h2>Languages and Utilities Used</h2>
 
 - <b>[Oracle Virtual Box](https://www.virtualbox.org/)</b>
-- <b>PowerShell</b> 
 
 
 <h2>Environments Used </h2>

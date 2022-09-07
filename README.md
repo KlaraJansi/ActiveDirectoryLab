@@ -2,7 +2,7 @@
 <h1>Set it up! </h1>
 
 <h2>Description</h2>
-This is tutorial for set up the Active Directory Home Lab via Oracle Virtual Box. 
+This is tutorial for set up the Active Directory Home Lab with Oracle Virtual Box. I installed Microsoft server 2019 as a domain controller and Windows 10 pro as a client. I also configured NAT and DHCP to be able to connect my client to domain. 
 <br />
 
 <h2> Watch a video walkthrough! </h2> 
@@ -40,7 +40,7 @@ Step 4: Setup server network adapters </b> <br />
 - right click on your newly created admin user -> Properties -> Member Of -> Add -> Name the new group 'Domain Admins' -> Ok -> Apply 
 * You can now log out and log in back as your new admin account <br />
 
-<b> Step 7: INstall and configure RAS/NAT: </b> <br />
+<b> Step 7: Install and configure RAS/NAT: </b> <br />
 - Add roles and features -> Next... -> Remote Access -> Next... -> Check 'Routing' -> Next... -> Install
 - Tools -> Routing and Remote Access -> right click on your domain -> COnfigure and Enable Routing and Remote Access -> Next... -> Network address translation (NAT) -> Next... -> Use this public interface to connect to the Internet -> select your Internet connection -> Next... -> Finish
 

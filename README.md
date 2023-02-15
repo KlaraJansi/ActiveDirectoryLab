@@ -132,6 +132,8 @@ Step 4: Setup server network adapters </b> <br />
 -> Rename your PC (advanced) <br/>
 -> Change <br/>
 -> Type your domain name and sign in with one of the domain users credentials <br/>
+* your network interface on your client should be this: <br/>
+![Screenshot](https://github.com/KlaraJansi/ActiveDirectoryLab/blob/main/Pictures/AD%20-client%20network.png(<br/>
 
 <b> All done! </b>
 

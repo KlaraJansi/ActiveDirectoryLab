@@ -3,7 +3,7 @@
 
 <h2>Description</h2>
 
-This is tutorial for set up the Active Directory Home Lab with Oracle Virtual Box. I installed Microsoft server 2019 as a domain controller and Windows 10 pro as a client. I also configured NAT and DHCP to be able to connect my client to domain. <br/>
+In this tutorial, the Active Directory home lab is set up with Oracle Virtual Box. The installation of Microsoft Server 2019 as a domain controller and Windows 10 Pro as a client on virtual machines is done. Additionally, the NAT and DHCP are configured to enable the client to connect to the domain. By following this tutorial, you will have the opportunity to learn how to set up an Active Directory home lab, which can be a valuable learning experience for those trying to get into IT field, and anyone interested in networking and virtualization. <br/>
 
 <h2>Languages and Utilities Used</h2>
 

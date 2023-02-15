@@ -2,11 +2,8 @@
 <h1>Set it up! </h1>
 
 <h2>Description</h2>
-This is tutorial for set up the Active Directory Home Lab with Oracle Virtual Box. I installed Microsoft server 2019 as a domain controller and Windows 10 pro as a client. I also configured NAT and DHCP to be able to connect my client to domain. 
-<br />
 
-<h2> Network Map </h2> 
-![Screenshot](https://github.com/KlaraJansi/ActiveDirectoryLab/blob/main/Pictures/Network%20Diagram.png)<br/>
+This is tutorial for set up the Active Directory Home Lab with Oracle Virtual Box. I installed Microsoft server 2019 as a domain controller and Windows 10 pro as a client. I also configured NAT and DHCP to be able to connect my client to domain. <br/>
 
 <h2>Languages and Utilities Used</h2>
 
@@ -16,6 +13,9 @@ This is tutorial for set up the Active Directory Home Lab with Oracle Virtual Bo
 
 - <b>[Windows server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-20190)</b> 
 - <b>[Windows 10](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise)</b> 
+<br/>
+
+![Screenshot](https://github.com/KlaraJansi/ActiveDirectoryLab/blob/main/Pictures/Network%20Map.png)<br/>
 
 <h2>Walk-through:</h2>
 
@@ -135,5 +135,6 @@ Step 4: Setup server network adapters </b> <br />
 
 <b> All done! </b>
 
+
 </p>
-![Screenshot]()<br/>
+
